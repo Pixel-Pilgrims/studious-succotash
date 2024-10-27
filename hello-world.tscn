@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://dj1ks6oyhm0p"]
+
+[ext_resource type="Texture2D" uid="uid://curmw80qw4f5u" path="res://icon.svg" id="1_q7u5k"]
+
+[node name="World Scene" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Hello world label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 154.0
+offset_top = 247.0
+offset_right = 1026.0
+offset_bottom = 384.0
+theme_override_font_sizes/font_size = 100
+text = "Dag mooie wereld"
+
+[node name="Icon" type="Sprite2D" parent="."]
+position = Vector2(570, 121)
+texture = ExtResource("1_q7u5k")
